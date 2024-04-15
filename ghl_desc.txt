@@ -1,0 +1,22 @@
+Основные команды в Git:
+
+1. git --version - выводит версию git
+2. git init - инициализирует git
+3. git status - выдаёт статус текущей папки
+4. git add "file name" - добавляет файл для отслеживания
+5. git commit -m "message" - сохраняет изменение с комментарием
+6. git log - выводит на экрант историю изменений
+7. git checkout "version ID" - перемещаемся на искомую версию
+8. git checkout master - возвращаемся на главную ветку
+9. git diff - показывает внесённые изменения
+
+Команды для работы с ветками:
+
+1. git branch - показывает все ветки
+2. git branch <branch_name> - создаёт новую ветку с названием <branch_name>
+3. git checkout <branch_name> - переходит на новую ветку <branch_name>
+4. git merge <branch_name> - слияние текущей и искомой <branch_name> ветвей
+5. git branch -d <branch_name> - удаление искомой ветки <branch_name>
+6. .gitignore - список игнорируемых типов файлов
+7. git log --graph - показывает историю изменений с графическим отображением веток
+
